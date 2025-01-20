@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* shared-atyles */
+main{
+  max-width: 1440px;
+  margin: 0 auto;}
+
+  .display-flex{
+    display: flex;
+  }
+
+
+  /* nav related styles */
+  .nav-item{
+    list-style: none;
+    margin-right:32px ;
+   }
+
+  .nav-link{
+    text-decoration: none;
+   
+    
+  }
+  .logo{
+    gap: 11px;
+  }
+  .brand{
+    size: 2rem;
+    font-weight:700 ;
+    color: #111111;
+  }
+  .nav-link-home{
+    color: #FEA301;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+.nav-link-about{
+  color: #01ACFD;
+  font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+
+.nav-link-facilities{
+  color: #05D4DF;
+  font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+
+.nav-link-admission{
+  color: #5D58EF;
+
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.nav-btn{
+  width: 197px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: #FEA301;
+  border: none;
+
+
+}
+.nav-bar{
+  align-items: center;
+  justify-content: space-between;
+ margin: 20px 140px;
+}
+
+/* banner-section */
+.banner-contant{
+  text-align: left;
+  
+}
+.banner-hading{
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.heading-orange{
+  color: #FEA301;
+}
+.heading-sky-blue{
+  color:#01ACFD;
+}
+.banner-contant{
+  max-width: 640px;
+
+
+}
+.banner-btn{
+  width: 197px  ;
+  height: 50px;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #111111;
+  font-size: 1.25rem;
+  font-weight: 700;
+  
+}
