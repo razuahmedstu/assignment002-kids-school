@@ -30,6 +30,10 @@ body{
   .logo{
     gap: 11px;
   }
+  .manu-bar{
+    width: 62px;
+    height: 62px;
+  }
   .brand{
     size: 2rem;
     font-weight:700 ;
@@ -83,7 +87,6 @@ body{
 
 .banner {
   max-width: 1158.61px;
-  height:575px ;
   gap:50px ;
   align-items: center;
   margin: auto 140px;
@@ -91,7 +94,7 @@ body{
 }
 .banner-contant{
   text-align: left;
-  max-width: 640px;
+  /* max-width: 640px; */
   
 }
 .banner-hading{
@@ -128,5 +131,25 @@ body{
   .banner {
     flex-direction: column-reverse;
 }
+.nav-btn,
+.brand,
+.nav-links {
+  display: none;
+}
+.nav-bar
+{
+  display: flex;
+ justify-content: space-between;
+ margin: auto 16px;
+}
+.banner-contant{
+ text-align: center;
+}
+}
+
+@media screen and (min-width: 576px){
+  .manu-tab {
+    display: none;
+  }
 
 }
