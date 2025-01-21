@@ -107,6 +107,9 @@ body{
 .heading-sky-blue{
   color:#01ACFD;
 }
+.discription{
+  font-size: 1.25rem;
+}
 
 
 
@@ -144,7 +147,21 @@ body{
 }
 .banner-contant{
  text-align: center;
+ max-width: 360px;
+ background-color: #05D4DF;
+ 
+ 
 }
+.banner-hading{
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0px;
+}
+.discription{
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
 }
 
 @media screen and (min-width: 576px){
