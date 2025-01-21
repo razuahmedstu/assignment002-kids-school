@@ -80,6 +80,15 @@ body{
 }
 
 /* banner-section */
+
+.banner {
+  max-width: 1158.61px;
+  height:575px ;
+  gap:50px ;
+  align-items: center;
+  margin: auto 140px;
+
+}
 .banner-contant{
   text-align: left;
   
@@ -98,7 +107,9 @@ body{
   max-width: 640px;
 
 
+
 }
+
 .banner-btn{
   width: 197px  ;
   height: 50px;
