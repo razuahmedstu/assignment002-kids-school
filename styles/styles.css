@@ -91,6 +91,7 @@ body{
 }
 .banner-contant{
   text-align: left;
+  max-width: 640px;
   
 }
 .banner-hading{
@@ -103,12 +104,11 @@ body{
 .heading-sky-blue{
   color:#01ACFD;
 }
-.banner-contant{
-  max-width: 640px;
 
 
 
-}
+
+
 
 .banner-btn{
   width: 197px  ;
@@ -121,4 +121,12 @@ body{
   font-size: 1.25rem;
   font-weight: 700;
   
+}
+
+/* reponsive media quary */
+@media screen and (max-width:576px){
+  .banner {
+    flex-direction: column-reverse;
+}
+
 }
