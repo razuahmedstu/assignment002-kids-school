@@ -15,6 +15,12 @@ body{
     display: flex;
   }
 
+  .card-btn{
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+  
+  }
 
   /* nav related styles */
   .nav-item{
@@ -128,7 +134,48 @@ body{
   font-weight: 700;
   
 }
+/* curriculum styles */
 
+.curriculum-heading{
+  text-align: center;
+  font-size: 2.85rem;
+  font-weight: 700;
+}
+.curriculm-cards {
+  text-align: center;
+  gap: 28px;
+  max-width: 1160px;
+  margin: auto 140px;
+ 
+}
+.curriculum-card{
+  width: 367px;
+ 
+  border-radius: 18px;
+  border: 1px solid black;
+  /* gap: 20px; */
+ padding: 53px 40px;
+ 
+}
+.curriculum-card-heading{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #202020;
+}
+.curriculum-dis{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #808080;
+}
+.btn-1{
+  color: #64C8FF;
+}
+.btn-2{
+  color: #F0AA00;
+}
+.btn-3{
+  color: #8700FF;
+}
 /* reponsive media quary */
 @media screen and (max-width:576px){
   .banner {
