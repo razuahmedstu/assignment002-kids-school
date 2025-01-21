@@ -144,8 +144,8 @@ body{
 .curriculm-cards {
   text-align: center;
   gap: 28px;
-  max-width: 1160px;
-  margin: auto 140px;
+  /* max-width: 1160px; */
+  margin: 80px 140px auto 140px;
  
 }
 .curriculum-card{
@@ -176,9 +176,33 @@ body{
 .btn-3{
   color: #8700FF;
 }
+.arrow-btns{
+  text-align:center ;
+  margin-top: 80px;
+
+}
+.btn-right{
+  background-color:#FEA301;
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+  border: none;
+  
+}
+.btn-left{
+  background-color:#FEA301;
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+  border: none;
+
+}
+
 /* reponsive media quary */
 @media screen and (max-width:576px){
-  .banner {
+  .banner,
+  .curriculum,
+  .curriculm-cards {
     flex-direction: column-reverse;
     margin: auto 16px;
     /* max-width: 520px; */
@@ -188,7 +212,8 @@ body{
 }
 .nav-btn,
 .brand,
-.nav-links {
+.nav-links,
+.arrow-btns {
   display: none;
 }
 .nav-bar
