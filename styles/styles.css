@@ -204,12 +204,92 @@ body{
 /* stories related styles */
 .our-stories{
   background-image: url("/assets/bg.png");
+  margin: auto 121px;
+  gap: 16px;
+  text-align: center;
+
+  
+}
+.stories-cards {
+  
+  /* height: 630px; */
+gap: 19px;
+/* border: 1px solid red;
+border-radius: 16px; */
+
+}
+
+.btn-1{
+  background-color: #3CD8E8;
+  color: #FFFFFF;
+  border-radius: 48px;
+  border: none;
+  width: 174px;
+  height: 47px;
+ margin-top: -15px;
+ margin-left: 5px;
+}
+.btn-2{
+  background-color: #95B226;
+  color: #FFFFFF;
+  border-radius: 48px;
+  border: none;
+  width: 174px;
+  height: 37px;
+  margin-top: -30px;
+  margin-left: 38px;
+}
+.btn-3{
+  background-color: #5D58F0;
+  color:  #FFFFFF;
+  border-radius: 48px;
+  border: none;
+  width: 174px;
+  height: 37px;
+  margin-top: -30px;
+  margin-left: 38px;
+}
+h4{
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .stories-4{
 display: grid;
 grid-template-columns: repeat(2,1fr);
+gap: 10px;
 
+}
+.stories-heading{
+  font-size: 2.875rem;
+  font-weight: 700;
+  text-align: center;
+}
+.story-1-heading{
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: left;
+
+}
+.story-1-des{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666666;
+  text-align: left;
+ 
+
+}
+.view-all-btn{
+  background-color: black;
+  color: white;
+  width: 197px;
+  height: 50px;
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
 }
 
 /* reponsive media quary */
@@ -228,14 +308,18 @@ grid-template-columns: repeat(2,1fr);
 .brand,
 .nav-links,
 .arrow-btns,
-.story-1 {
+.story-1
+ {
   display: none;
 }
 .nav-bar
 {
   display: flex;
  justify-content: space-between;
- margin: auto 10px;
+ padding: 0px;
+ margin: 0px;
+ border-bottom:1px solid #FEA301 ;
+
 }
 .banner-contant{
  text-align: center;
@@ -257,16 +341,33 @@ grid-template-columns: repeat(2,1fr);
   width: 100%;
 
 }
-
-.stories-4,
 .curriculm-cards{
   flex-direction: column;
   margin: auto 16px;
   /* max-width: 520px; */
   align-items: center;
   text-align: center;
- 
+
+
 }
+.stories-cards{
+  max-width: 25px;
+  align-items: center;
+}
+
+/* .stories-4{
+  flex-direction: column;
+  margin: auto 16px ;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: repeat(2,1fr);
+  max-width: 250px;
+} */
+/* .our-stories{
+  align-items: center;
+  text-align: center;
+  max-width: 570px;
+} */
 
 }
 
