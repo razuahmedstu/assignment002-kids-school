@@ -149,11 +149,10 @@ body{
  
 }
 .curriculum-card{
-  width: 367px;
+  /* width: 367px; */
  
   border-radius: 18px;
   border: 1px solid black;
-  /* gap: 20px; */
  padding: 53px 40px;
  
 }
@@ -237,6 +236,10 @@ body{
   font-size: 0.875rem;
   font-weight: 400;
   
+}
+.hero-img{
+  width: 100%;
+
 }
 
 }
