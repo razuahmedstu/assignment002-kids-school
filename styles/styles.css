@@ -201,11 +201,22 @@ body{
 
 }
 
+/* stories related styles */
+.our-stories{
+  background-image: url("/assets/bg.png");
+}
+
+.stories-4{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+}
+
 /* reponsive media quary */
 @media screen and (max-width:576px){
   .banner,
-  .curriculum,
-  .curriculm-cards {
+  .curriculum
+   {
     flex-direction: column-reverse;
     margin: auto 16px;
     /* max-width: 520px; */
@@ -216,7 +227,8 @@ body{
 .nav-btn,
 .brand,
 .nav-links,
-.arrow-btns {
+.arrow-btns,
+.story-1 {
   display: none;
 }
 .nav-bar
@@ -244,6 +256,16 @@ body{
 .hero-img{
   width: 100%;
 
+}
+
+.stories-4,
+.curriculm-cards{
+  flex-direction: column;
+  margin: auto 16px;
+  /* max-width: 520px; */
+  align-items: center;
+  text-align: center;
+ 
 }
 
 }
