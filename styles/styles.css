@@ -339,6 +339,30 @@ gap: 10px;
 }
 
 /* media  */
+@media screen and (max-width: 578px){
+  .brand,
+  .nav-links,
+  .nav-btn,
+  .arrow-btns,
+  .story-1{
+    display: none;
+  }
+  .nav-bar{
+    margin: 0px;
+    padding: 0px;
+  }
+  .banner{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .curriculm-cards{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+
+}
 @media screen and (min-width: 576px){
   .manu-tab {
     display: none;
