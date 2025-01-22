@@ -135,7 +135,9 @@ body{
   
 }
 /* curriculum styles */
-
+.curriculum{
+  background-image: url("/assets/bg.png");
+}
 .curriculum-heading{
   text-align: center;
   font-size: 2.85rem;
@@ -146,6 +148,8 @@ body{
   gap: 28px;
   /* max-width: 1160px; */
   margin: 80px 140px auto 140px;
+  
+
  
 }
 .curriculum-card{
